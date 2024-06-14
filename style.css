@@ -1,0 +1,70 @@
+body{
+    background-image: url('./low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2{
+    color: white;
+    font-size: 60px;
+    margin: 40px 0px;
+}
+
+img{
+    width: 700px;
+    height: 180px;
+    margin-top: 100px;
+    border-radius: 30px;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.container{
+    width: 700px;
+    border-radius: 26px;
+    margin-top: -180px;
+    background: url('');
+    height: 180px;
+    background-size: cover;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+
+.hours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.minutes{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.seconds{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 50%;
+}

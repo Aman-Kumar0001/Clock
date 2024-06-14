@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Time</h2>
+
+    <img src="https://img.freepik.com/free-photo/panoramic-view-sunset-night_23-2148933764.jpg?t=st=1718166125~exp=1718169725~hmac=6572e845a291aeecee9f4821816ed3f735502f0cc25153a64e926e030252bfc2&w=1060" alt="">
+    <div class="container">
+        <div class="hours" id="hours">
+
+        </div>:
+
+        <div class="minutes" id="minutes">
+
+        </div>:
+
+        <div class="seconds" id="seconds">
+
+        </div>
+    </div>
+
+    <script>
+        function time() {
+            let date = new Date();
+            let hours = date.getHours();
+            let seconds = date.getSeconds();
+            let minutes = date.getMinutes();
+
+            document.getElementById('seconds').textContent = seconds 
+            document.getElementById('hours').textContent = hours 
+            document.getElementById('minutes').textContent = minutes 
+            
+        }
+
+        setInterval(time,1000)
+        
+    </script>
+</body>
+</html>
